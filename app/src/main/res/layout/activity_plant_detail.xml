@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -52,11 +52,11 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="307dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
@@ -71,40 +71,48 @@
 
             <ImageView
                 android:id="@+id/plants_right_image"
-                android:layout_width="wrap_content"
-                android:layout_height="37dp"
+                android:layout_width="88dp"
+                android:layout_height="32dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginEnd="16dp"
                 android:src="@drawable/l1" />
 
         </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="16dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="16dp">
-
-            <EditText
-                android:id="@+id/search_bar"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:hint="Search"
-                android:textSize="18sp"
-                android:background="@android:color/white"
-                android:padding="8dp" />
-        </LinearLayout>
     </LinearLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/plants_recycler_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            tools:context=".PlantDetailActivity">
 
+            <TextView
+                android:id="@+id/plant_name_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Test Plant Name"
+                android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/plant_details_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="Test Plant Details"
+                android:layout_below="@id/plant_name_text_view"
+                android:padding="16dp"/>
+
+            <ImageView
+                android:id="@+id/plant_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/plant_details_text_view"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="82dp"
+                android:layout_marginTop="261dp"
+                android:src="@drawable/a" />
+
+        </RelativeLayout>
 </LinearLayout>
