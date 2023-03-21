@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         plants = new ArrayList<>();
-        plants.add(new Plant("Hill's Fig", R.drawable.abc, "UNKNOWN.", "Hill's Fig is a large, evergreen tree that can grow up to 25 meters tall. It has a broad, spreading canopy and dense foliage that provides shade and shelter for a variety of wildlife. The leaves are glossy and dark green, with a smooth texture and pointed tips. The tree produces small, round fruit that are edible but not usually eaten by humans.\n" +
+        plants.add(new Plant("Hill's Fig", R.drawable.abc, "The ultimate lush tree, Hill's Fig can also be grown as a large hedge or pruned for topiary. In low rainfall areas, it has the perfect shape to provide dense shade.", "Hill's Fig is a large, evergreen tree that can grow up to 25 meters tall. It has a broad, spreading canopy and dense foliage that provides shade and shelter for a variety of wildlife. The leaves are glossy and dark green, with a smooth texture and pointed tips. The tree produces small, round fruit that are edible but not usually eaten by humans.\n" +
                 "\n" +
                 " "));
         plants.add(new Plant("Gymea Lilly", R.drawable.b, "Gymea Lily is a large, dramatic plant that is native to the coastal regions of New South Wales in Australia.", "The Gymea Lily can grow up to 4 meters tall and produces a tall, spear-like inflorescence that can reach up to 6 meters in height. The inflorescence is covered in hundreds of bright red flowers that attract birds and other wildlife. The leaves are strap-like and can grow up to 2 meters long, forming a large rosette at the base of the plant.\n" +

@@ -56,13 +56,13 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="307dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:text="Plants"
-                android:textSize="24sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
 
             <View
                 android:layout_width="0dp"
@@ -71,8 +71,8 @@
 
             <ImageView
                 android:id="@+id/plants_right_image"
-                android:layout_width="88dp"
-                android:layout_height="32dp"
+                android:layout_width="79dp"
+                android:layout_height="35dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginEnd="16dp"
                 android:src="@drawable/l1" />
