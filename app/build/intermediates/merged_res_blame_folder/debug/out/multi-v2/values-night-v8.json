@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\sb\\INFS3605-Green-Trail\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\sb\\infs3605\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

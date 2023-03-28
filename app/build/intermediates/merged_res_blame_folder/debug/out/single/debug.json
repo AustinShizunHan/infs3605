@@ -194,9 +194,5 @@
     {
         "merged": "C:\\Users\\24270\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-29:\\drawable_u.png.flat",
         "source": "C:\\Users\\24270\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-31:\\drawable\\u.png"
-    },
-    {
-        "merged": "C:\\Users\\24270\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-29:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\24270\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-31:\\mipmap-anydpi-v33\\ic_launcher.xml"
     }
 ]

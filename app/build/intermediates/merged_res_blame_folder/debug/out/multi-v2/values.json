@@ -80,23 +80,6 @@
                     }
                 },
                 {
-                    "source": "C:\\sb\\INFS3605-Green-Trail\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
-                    },
-                    "to": {
-                        "startLines": "619,871,872,873,884,885,888",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "31578,49831,49878,49925,50669,50714,50880",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "31615,49873,49920,49967,50709,50754,50917"
-                    }
-                },
-                {
                     "source": "C:\\Users\\24270\\.gradle\\caches\\transforms-3\\96e7554634152527609a0a2a210aa86b\\transformed\\viewpager2-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -113,6 +96,23 @@
                         "endLines": "13023",
                         "endColumns": "24",
                         "endOffsets": "755016"
+                    }
+                },
+                {
+                    "source": "C:\\sb\\infs3605\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "51",
+                        "endOffsets": "63"
+                    },
+                    "to": {
+                        "startLines": "1799",
+                        "startColumns": "4",
+                        "startOffsets": "115544",
+                        "endColumns": "51",
+                        "endOffsets": "115591"
                     }
                 },
                 {
@@ -135,20 +135,22 @@
                     }
                 },
                 {
-                    "source": "C:\\sb\\INFS3605-Green-Trail\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\sb\\infs3605\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "51",
-                        "endOffsets": "63"
+                        "startLines": "21,15,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1052,827,100",
+                        "endLines": "21,19,14",
+                        "endColumns": "40,12,12",
+                        "endOffsets": "1088,1046,822"
                     },
                     "to": {
-                        "startLines": "1799",
-                        "startColumns": "4",
-                        "startOffsets": "115544",
-                        "endColumns": "51",
-                        "endOffsets": "115591"
+                        "startLines": "1957,1958,6216",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "136548,136589,430472",
+                        "endLines": "1957,1962,6228",
+                        "endColumns": "40,12,12",
+                        "endOffsets": "136584,136808,431071"
                     }
                 },
                 {
@@ -205,22 +207,20 @@
                     }
                 },
                 {
-                    "source": "C:\\sb\\INFS3605-Green-Trail\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\sb\\infs3605\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "21,15,2",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "1052,827,100",
-                        "endLines": "21,19,14",
-                        "endColumns": "40,12,12",
-                        "endOffsets": "1088,1046,822"
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
                     },
                     "to": {
-                        "startLines": "1957,1958,6216",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "136548,136589,430472",
-                        "endLines": "1957,1962,6228",
-                        "endColumns": "40,12,12",
-                        "endOffsets": "136584,136808,431071"
+                        "startLines": "619,871,872,873,884,885,888",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "31578,49831,49878,49925,50669,50714,50880",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "31615,49873,49920,49967,50709,50754,50917"
                     }
                 },
                 {
@@ -255,6 +255,23 @@
                         "startOffsets": "109193",
                         "endColumns": "49",
                         "endOffsets": "109238"
+                    }
+                },
+                {
+                    "source": "C:\\sb\\infs3605\\app\\src\\main\\res\\values\\refs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "32",
+                        "endOffsets": "85"
+                    },
+                    "to": {
+                        "startLines": "1597",
+                        "startColumns": "4",
+                        "startOffsets": "103323",
+                        "endColumns": "31",
+                        "endOffsets": "103350"
                     }
                 },
                 {
@@ -346,23 +363,6 @@
                         "startOffsets": "115461",
                         "endColumns": "82",
                         "endOffsets": "115539"
-                    }
-                },
-                {
-                    "source": "C:\\sb\\INFS3605-Green-Trail\\app\\src\\main\\res\\values\\refs.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "32",
-                        "endOffsets": "85"
-                    },
-                    "to": {
-                        "startLines": "1597",
-                        "startColumns": "4",
-                        "startOffsets": "103323",
-                        "endColumns": "31",
-                        "endOffsets": "103350"
                     }
                 },
                 {

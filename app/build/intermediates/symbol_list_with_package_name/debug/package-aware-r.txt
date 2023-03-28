@@ -3170,6 +3170,7 @@ id pin
 id plant_details_text_view
 id plant_image_view
 id plant_name_text_view
+id plant_video_view
 id plants_recycler_view
 id plants_right_image
 id position

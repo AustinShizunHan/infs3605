@@ -27,7 +27,7 @@
 
         <TextView
             android:id="@+id/right_text"
-            android:layout_width="153dp"
+            android:layout_width="136dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginEnd="16dp"
@@ -47,8 +47,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="#000000">
+        android:background="@color/black"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -56,7 +56,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="307dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
@@ -71,8 +71,8 @@
 
             <ImageView
                 android:id="@+id/plants_right_image"
-                android:layout_width="wrap_content"
-                android:layout_height="37dp"
+                android:layout_width="88dp"
+                android:layout_height="32dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginEnd="16dp"
                 android:src="@drawable/l1" />
@@ -94,10 +94,10 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Search by plant name or location."
-                android:textSize="18sp"
                 android:background="@android:color/white"
-                android:padding="8dp" />
+                android:hint="Search"
+                android:padding="8dp"
+                android:textSize="18sp" />
         </LinearLayout>
     </LinearLayout>
 
